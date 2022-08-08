@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="fibonacciStyle.css">
 
 </head>
 <body>
-    <input type="number" id="number">
+    <h1>FIBONACCI</h1>
+    <input type="number" id="number" min="0">
     <button onclick="printFibonacci()">Fibonacci</button>
-    <p id="result"></p>
+    <button onclick="clearScreen()">Clear</button>
+    <br>
+    <br>
+    <textarea id="screen" placeholder="Text area" class="input"></textarea>
+    <h3>So dau tien trong day chia het cho 5: </h3>
+    <p id="result">Loading....</p>
+    <h3>Tong 30 so dau tien chia het cho 7: </h3>
+    <p id="result_2">Loading....</p>
 </body>
 </html>
 <script src="fibonacciJs.js"></script>

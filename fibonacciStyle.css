@@ -1,0 +1,16 @@
+body {
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+}
+
+.input:focus {
+    background-color: sandybrown;
+}
+
+h1 {
+    text-align: center;
+}
